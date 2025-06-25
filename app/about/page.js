@@ -23,7 +23,7 @@ export default function About() {
           </h1>
 
           <BlurText
-            text="Check Out My Socials"
+            text="Check Out David's Socials"
             delay={150}
             animateBy="words"
             direction="top"
