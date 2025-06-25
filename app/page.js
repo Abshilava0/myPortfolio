@@ -22,7 +22,7 @@ export default function Home() {
         />
         <p>
           <DecryptedText
-            text={`I'm David,Junior Frontend Developer From Georgia.`}
+            text={`I'm David,Junior Frontend Developer.`}
             speed={100}
             maxIterations={20}
             characters="ABCD1234!?"

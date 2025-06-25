@@ -90,24 +90,23 @@
     text-align: center;
   }
 
+  
   .imageCont {
     position: absolute;
-    margin-top: 40%;
+    margin-top: 60%;
     padding: 0;
     justify-content: center;
     width: 100%;
   }
 }
 
-@media (max-width: 410px) {
-  .imageCont {
-    position: absolute;
-    margin-top: 25em;
-    padding: 0;
-    justify-content: center;
-    width: 100%;
+@media(max-width: 400px) {
+  .imageCont{
+    margin-top: 140%;
   }
 }
+
+
 
 @media (min-width: 1300px) {
   .info p{
