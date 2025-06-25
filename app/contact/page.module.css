@@ -18,7 +18,7 @@
   justify-content: center;
   width: 50%;
   border-radius: 0.5rem;
-  margin-top: -5%;
+  
 }
 .form{
   width: 100%;
@@ -30,7 +30,7 @@
   flex-direction: column;
   justify-content: flex-start;
   gap: 1.5em;
-  padding-top: 1.5em;
+  padding-top: 2em;
 }
 .header h1{
   font-size: 3em;
@@ -73,18 +73,8 @@
 }
 
 @media(max-width: 768px) {
-
-  .footer {
-   
-  }
   .formContainer{
     width: 90%;
-    margin-bottom: 25%;
   }
 }
-@media(max-width: 450px) {
-  .formContainer{
-    
-    margin-bottom: 45%;
-  }
-}
+

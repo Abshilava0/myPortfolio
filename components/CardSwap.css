@@ -31,8 +31,4 @@
   }
 }
 
-@media (max-width: 480px) {
-  .card-swap-container {
-    transform: scale(0.55) translate(25%, 25%);
-  }
-}
+

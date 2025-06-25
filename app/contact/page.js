@@ -17,18 +17,22 @@ export default function Projects() {
 
   function validate() {
     const newErrors = {};
-    if (!formData.name.trim()) newErrors.name = "Name is required"; //name auth
 
-    if (!formData.email.trim()) {
+    const name = formData.name.trim();
+    const email = formData.email.trim();
+    const message = formData.message.trim();
+
+    if (!name) newErrors.name = "Name is required"; //name auth
+
+    if (!email) {
       //email auth
       newErrors.email = "Email is required";
     } else if (
-      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.email)
+      !/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(email)
     ) {
       newErrors.email = "Invalid email address";
     }
 
-    const message = formData.message.trim();
 
     if (!message) { //message auth
       newErrors.message = "Message is required";
