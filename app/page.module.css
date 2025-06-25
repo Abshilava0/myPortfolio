@@ -77,9 +77,12 @@
   
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 5rem 1rem;
   }
 
@@ -92,7 +95,6 @@
 
   
   .imageCont {
-    position: absolute;
     margin-top: 60%;
     padding: 0;
     justify-content: center;
@@ -100,11 +102,6 @@
   }
 }
 
-@media(max-width: 400px) {
-  .imageCont{
-    margin-top: 140%;
-  }
-}
 
 
 
