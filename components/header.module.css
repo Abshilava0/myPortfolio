@@ -1,0 +1,50 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.link{
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  border-radius: 0.3rem;
+  color: black;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.link:hover{
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+.active{
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+@media (max-width: 600px){
+  .header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+  }
+  .nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1.5em;
+  
+  }
+
+}

@@ -1,0 +1,40 @@
+
+.error{
+  height: 80vh;
+  width: 100Vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  flex-wrap: wrap;
+}
+.error h1{
+  font-size: 5em;
+  text-align: center;
+}
+.error p{
+  font-size: 2em;
+  text-align: center;
+}
+.error button{
+  padding: 1em 1.5em;
+  font-size: 1.5em;
+  border-radius: 0.4em;
+  cursor: pointer;
+  outline: none;
+}
+
+@media(max-width: 768px) {
+  
+  .error h1 {
+    font-size: 3.5em;
+  }
+  .error p{
+    font-size: 2em;
+  }
+  .error button{
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+  }
+}

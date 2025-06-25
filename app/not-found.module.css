@@ -1,0 +1,41 @@
+
+.notFound{
+  height: 80vh;
+  width: 100Vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  flex-wrap: wrap;
+}
+.notFound h1{
+  font-size: 5em;
+  text-align: center;
+}
+.notFound p{
+  font-size: 2em;
+  text-align: center;
+}
+.notFound a{
+  color: black;
+  font-size: 2em;
+}
+.notFound a:active{
+  color: rgb(96, 96, 96);
+}
+
+
+@media(max-width: 768px) {
+  
+  .notFound h1 {
+    font-size: 3.5em;
+  }
+  .notFound p{
+    font-size: 2em;
+  }
+  .notFound button{
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+  }
+}
