@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState, useMemo } from 'react';
 
+import classes from './BlurText.module.css';
+
 const buildKeyframes = (from, steps) => {
   const keys = new Set([
     ...Object.keys(from),
@@ -80,8 +82,7 @@ const BlurText = ({
   return (
     <p
       ref={ref}
-      className={className}
-      style={{ display: 'flex', flexWrap: 'wrap' }}
+      className={classes.text}
     >
       {elements.map((segment, index) => {
         const animateKeyframes = buildKeyframes(fromSnapshot, toSnapshots);
@@ -112,5 +113,7 @@ const BlurText = ({
     </p>
   );
 };
+
+
 
 export default BlurText;

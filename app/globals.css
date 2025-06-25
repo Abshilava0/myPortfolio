@@ -3,9 +3,9 @@ body {
   max-width: 100vw;
   font-family: var(--font-space-mono);
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* Remove or comment out the next line: */
+  /* overflow-y: hidden; */
 }
-
 * {
   box-sizing: border-box;
   padding: 0;

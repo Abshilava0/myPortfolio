@@ -1,0 +1,14 @@
+.text {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media(max-width: 768px) {
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
